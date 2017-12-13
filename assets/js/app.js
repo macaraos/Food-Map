@@ -4,20 +4,20 @@ $(document).ready(function(){
 $(function(){
 	$("#chilena").click(function(){
 		$(".photo").hide();
-		$(".container2").removeClass('hide');
+		$(".containerChileno").removeClass('hide');
 	})
 
 	$("#española").click(function(){
 		$(".photo").hide();
 		$(".photo2").hide();
-		$(".container3").removeClass('hide');
+		$(".containerEspanol").removeClass('hide');
 	})
 
 	$("#italiana").click(function(){
 		$(".photo").hide();
 		$(".photo2").hide();
 		$(".photo3").hide();
-		$(".container4").removeClass('hide');
+		$(".containerItaliano").removeClass('hide');
 	})
 
 	$("#mexicana").click(function(){
@@ -25,10 +25,11 @@ $(function(){
 		$(".photo2").hide();
 		$(".photo3").hide();
 		$(".photo4").hide();
-		$(".container5").removeClass('hide');
+		$(".containerMexicano").removeClass('hide');
 	})
 
 });
+
 
 $('.contenedor').mouseover(function () {
     $('.sailor-overlay').show();

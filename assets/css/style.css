@@ -20,7 +20,7 @@ body {
   z-index:1001;
 }
 
-#overlay-content{
+#overlay-content {
   position: absolute;
   color: orange;
   text-align: center;
@@ -28,7 +28,7 @@ body {
   width: 360px;
   height: 90px;
   padding: 16px;
-  z-index:1002;
+  z-index:1010;
 }
 
 .page-loader{
@@ -217,36 +217,5 @@ hr {
   -o-transform: scale(0.8);
 }
 
-.photos2 img{
-  width: 100px;
-  height: 100px;
-  margin-top:20px;
-  border-radius: 6px;
-  object-fit: cover;
-}
-
-.photos3 img{
-    width: 100px;
-  height: 100px;
-  margin-top:20px;
-  border-radius: 6px;
-  object-fit: cover;
-}
-
-.photos4 img{
-  width: 100px;
-  height: 100px;
-  margin-top:20px;
-  border-radius: 6px;
-  object-fit: cover;
-}
-
-.photos5 img{
-    width: 100px;
-  height: 100px;
-  margin-top:20px;
-  border-radius: 6px;
-  object-fit: cover;
-}
 
 
