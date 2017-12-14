@@ -6,12 +6,13 @@
 	<meta http-equiv=“X-UA-Compatible” content=“IE=edge”>
 	<title>FoodMap</title>
 	<link rel="shortcut icon" type=“image/x-icon” href="favicon.ico">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><!-- Enlace Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
+<!-- SPLASH DE INICIO -->
 	<div id="overlay">
 		<div id="overlay-content"><h1>FOOD MAP</h1></div>
 		<div class="page-loader" style="">
@@ -24,7 +25,7 @@
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- MODAL CHILENO -->
 	<div class="modal fade" id="chilean" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -46,7 +47,7 @@
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- MODAL ESPAÑOL -->
 	<div class="modal fade" id="spain" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -68,7 +69,7 @@
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- MODAL ITALIANO -->
 	<div class="modal fade" id="italian" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -90,7 +91,7 @@
 		</div>
 	</div>
 
-	<!-- Modal -->
+	<!-- MODAL MEXICANO -->
 	<div class="modal fade" id="mexican" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -112,6 +113,7 @@
 		</div>
 	</div>
 
+<!-- PAGINA DE INICIO -->
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 principal-section">
@@ -119,6 +121,8 @@
 				<hr>
 			</div>
 		</div>
+
+		<!-- MAPA -->
 		<div class="row">
 			<div class="col-xs-12">
 				<iframe class="map embed-responsive-item" id="maps" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13315.973305463538!2d-70.63952465!3d-33.4494804!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2scl!4v1512442144892" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -131,9 +135,9 @@
 			</div>
 		</div>
 
+<!-- BUSCADOR -->
 		<div class="row">
 			<div class="col-xs-12">
-
 				<div class="dropdown">
 					<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
 						<strong>Filtrar por pais</strong>
@@ -150,6 +154,7 @@
 		</div>
 	</div>
 
+<!-- GALERIAS -->
 	<section class="galeria">
 		<div class="container">
 			<div class="row">
@@ -164,48 +169,48 @@
 	</section>
 
 	<section>
-		<div class="containerChileno hide">
+		<div class="containerChileno">
 			<div class="row">
 				<div class="col-xs-12 photos2">
-					<img class="photo2" src="assets/img/cazuela.png" alt="">
-					<img class="photo2" src="assets/img/chilena3.jpg" alt="">
-					<img class="photo2" src="assets/img/chilena4.jpg" alt="">
+					<img class="photo2" src="assets/img/cazuela.png" alt="" style="display: none">
+					<img class="photo2" src="assets/img/chilena3.jpg" alt="" style="display: none">
+					<img class="photo2" src="assets/img/chilena4.jpg" alt="" style="display: none">
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section>
-		<div class="containerEspanol hide">
+		<div class="containerEspanol">
 			<div class="row">
 				<div class="col-xs-12 photos3">
-					<img class="photo3" src="assets/img/paella.jpg" alt="">
-					<img class="photo3" src="assets/img/española2.jpg" alt="">
-					<img class="photo3" src="assets/img/española4.jpg" alt="">
+					<img class="photo3" src="assets/img/paella.jpg" alt="" style="display: none">
+					<img class="photo3" src="assets/img/española2.jpg" alt="" style="display: none">
+					<img class="photo3" src="assets/img/española4.jpg" alt="" style="display: none">
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section>
-		<div class="containerItaliano hide">
+		<div class="containerItaliano">
 			<div class="row">
 				<div class="col-xs-12 photos4">
-					<img class="photo4" src="assets/img/pizza.jpg" alt="">
-					<img class="photo4" src="assets/img/italiana2.jpg" alt="">
-					<img class="photo4" src="assets/img/italiana4.jpg" alt="">
+					<img class="photo4" src="assets/img/pizza.jpg" alt="" style="display: none">
+					<img class="photo4" src="assets/img/italiana2.jpg" alt="" style="display: none">
+					<img class="photo4" src="assets/img/italiana4.jpg" alt="" style="display: none">
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<section>
-		<div class="containerMexicano hide">
+		<div class="containerMexicano">
 			<div class="row">
 				<div class="col-xs-12 photos5">
-					<img class="photo5" src="assets/img/tacos.jpg" alt="">
-					<img class="photo5" src="assets/img/mexicana6.jpg" alt="">
-					<img class="photo5" src="assets/img/mexicana2.jpg" alt="">
+					<img class="photo5" src="assets/img/tacos.jpg" alt="" style="display: none">
+					<img class="photo5" src="assets/img/mexicana6.jpg" alt="" style="display: none">
+					<img class="photo5" src="assets/img/mexicana2.jpg" alt="" style="display: none">
 				</div>
 			</div>
 		</div>
@@ -214,7 +219,7 @@
 
 
 
-
+<!-- ENLACES -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://use.fontawesome.com/53a473cc15.js"></script>
