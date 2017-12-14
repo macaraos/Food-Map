@@ -23,6 +23,7 @@ body {
 #overlay-content {
   position: absolute;
   color: orange;
+  display: none;
   text-align: center;
   display: none;
   width: 360px;
@@ -183,10 +184,14 @@ hr {
   width: 100%;
 }
 
+.photos {
+  text-align: center;
+}
 .photos img{
-  width: 100%;
+  width: 90%;
   height: 100px;
   margin-top:20px;
+  border: 2px solid black;
   border-radius: 6px;
   object-fit: cover;
   -webkit-transform: 0px 0px 1;
@@ -217,5 +222,74 @@ hr {
   -o-transform: scale(0.8);
 }
 
+.photos2 {
+  text-align: center;
+}
+.photos2 img{
+  width: 90%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid black;
+}
 
+.photos3 {
+  text-align: center;
+}
+.photos3 img{
+  width: 90%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid black;
+}
 
+.photos4 {
+  text-align: center;
+}
+.photos4 img{
+  width: 90%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.photos5 {
+  text-align: center;
+}
+.photos5 img{
+    width: 90%;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.mapa {
+  width: 100%;
+}
+
+.fa-star {
+  color: #E7711B;
+}
+
+.fa-star-half-o {
+  color: #E7711B;
+}
+
+.fa-star-o {
+  color: #D1D1D1;
+}
+
+#star {
+  color: #E7711B;
+}
+
+.num {
+  color: #E7711B;
+}
