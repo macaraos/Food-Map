@@ -66,73 +66,73 @@ body {
   animation: 2.5s linear 0s normal none infinite running animateDot1;
   background: #f26f29 none repeat scroll 0 0;
   left: 12px;
-  }.dot_2 {
-    animation: 2.5s linear 0.5s normal none infinite running animateDot2;
-    left: 24px;
-    }.dot_3 {
-      animation: 2.5s linear 0s normal none infinite running animateDot3;
-      left: 12px;
-      }.dot_4 {
-        animation: 2.5s linear 0.5s normal none infinite running animateDot4;
-        left: 24px;
-      }
+}.dot_2 {
+  animation: 2.5s linear 0.5s normal none infinite running animateDot2;
+  left: 24px;
+}.dot_3 {
+  animation: 2.5s linear 0s normal none infinite running animateDot3;
+  left: 12px;
+}.dot_4 {
+  animation: 2.5s linear 0.5s normal none infinite running animateDot4;
+  left: 24px;
+}
 
-      @keyframes animateDot1 {
-        0% {
-          transform: rotate(0deg) translateX(-12px);
-        }
-        25% {
-          transform: rotate(180deg) translateX(-12px);
-        }
-        75% {
-          transform: rotate(180deg) translateX(-12px);
-        }
-        100% {
-          transform: rotate(360deg) translateX(-12px);
-        }
-      }
-      @keyframes animateDot2 {
-        0% {
-          transform: rotate(0deg) translateX(-12px);
-        }
-        25% {
-          transform: rotate(-180deg) translateX(-12px);
-        }
-        75% {
-          transform: rotate(-180deg) translateX(-12px);
-        }
-        100% {
-          transform: rotate(-360deg) translateX(-12px);
-        }
-      }
-      @keyframes animateDot3 {
-        0% {
-          transform: rotate(0deg) translateX(12px);
-        }
-        25% {
-          transform: rotate(180deg) translateX(12px);
-        }
-        75% {
-          transform: rotate(180deg) translateX(12px);
-        }
-        100% {
-          transform: rotate(360deg) translateX(12px);
-        }
-      }
-      @keyframes animateDot4 {
-        0% {
-          transform: rotate(0deg) translateX(12px);
-        }
-        25% {
-          transform: rotate(-180deg) translateX(12px);
-        }
-        75% {
-          transform: rotate(-180deg) translateX(12px);
-        }
-        100% {
-          transform: rotate(-360deg) translateX(12px);
-        }
-      }
+@keyframes animateDot1 {
+  0% {
+  transform: rotate(0deg) translateX(-12px);
+  }
+  25% {
+  transform: rotate(180deg) translateX(-12px);
+  }
+  75% {
+  transform: rotate(180deg) translateX(-12px);
+  }
+  100% {
+  transform: rotate(360deg) translateX(-12px);
+  }
+}
+@keyframes animateDot2 {
+  0% {
+  transform: rotate(0deg) translateX(-12px);
+  }
+  25% {
+  transform: rotate(-180deg) translateX(-12px);
+  }
+  75% {
+  transform: rotate(-180deg) translateX(-12px);
+  }
+  100% {
+  transform: rotate(-360deg) translateX(-12px);
+  }
+}
+@keyframes animateDot3 {
+  0% {
+  transform: rotate(0deg) translateX(12px);
+  }
+  25% {
+  transform: rotate(180deg) translateX(12px);
+  }
+  75% {
+  transform: rotate(180deg) translateX(12px);
+  }
+  100% {
+  transform: rotate(360deg) translateX(12px);
+  }
+}
+@keyframes animateDot4 {
+  0% {
+  transform: rotate(0deg) translateX(12px);
+  }
+  25% {
+  transform: rotate(-180deg) translateX(12px);
+  }
+  75% {
+  transform: rotate(-180deg) translateX(12px);
+  }
+  100% {
+  transform: rotate(-360deg) translateX(12px);
+  }
+}
 
 .principal-section {
   color: orange;
@@ -228,8 +228,8 @@ hr {
 }
 .photos2 img {
   width: 100%;
-  height: 80px;
-  margin-top: 3px;
+  height: 100px;
+  margin-top: 15px;
   border-radius: 6px;
   object-fit: cover;
   border: 2px solid black;
@@ -266,8 +266,8 @@ hr {
 }
 .photos3 img {
   width: 100%;
-  height: 80px;
-  margin-top: 3px;
+  height: 100px;
+  margin-top: 15px;
   border-radius: 6px;
   object-fit: cover;
   border: 2px solid black;
@@ -304,8 +304,8 @@ hr {
 }
 .photos4 img{
   width: 100%;
-  height: 80px;
-  margin-top: 3px;
+  height: 100px;
+  margin-top: 15px;
   border-radius: 6px;
   object-fit: cover;
   border: 2px solid black;-webkit-transform: 0px 0px 1;
@@ -340,8 +340,8 @@ hr {
 }
 .photos5 img {
   width: 100%;
-  height: 80px;
-  margin-top: 3px;
+  height: 100px;
+  margin-top: 15px;
   border-radius: 6px;
   object-fit: cover;
   border: 2px solid black;
@@ -375,7 +375,7 @@ hr {
 
 .mapa {
   width: 100%;
-      }
+}
 
 .fa-star {
   color: #E7711B;
@@ -401,7 +401,13 @@ hr {
   text-align: center;
 }
 
-a{
+a {
   color: orange;
 }
 
+#pedir {
+  text-align: center;
+  background-color: orange;
+  color: #fff;
+  width: 100%;
+}
